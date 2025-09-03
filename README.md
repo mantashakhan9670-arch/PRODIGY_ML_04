@@ -1,34 +1,19 @@
-task 3 TIC TAC TOE WEB APPLICATION 
-✅ Task 3: Tic Tac Toe Web Application
-
-Create a web-based Tic Tac Toe game where two players can play against each other on the same device.
-
-🎯 Requirements
-
-A 3x3 grid board.
-
-Two players: "X" and "O".
-
-Alternating turns between the players.
-
-Display the winner when the game ends or show "Draw" if there's no winner.
-
-Reset button to restart the game.
-
-(Optional): Add basic CSS animations or AI to play against the computer.
-
-🧠 Technologies to Use
-
-HTML – Structure
-
-CSS – Styling
-
-JavaScript – Game Logic
-
-📁 Project Structure
-tic-tac-toe/
-│
-├── index.html
-├── style.css
-└── script.js
-
+TASK 3 TIC-TAC-TOE WEB APPLICATION 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    <div id="board" class="board"></div>
+    <div id="status" class="status">Player X's Turn</div>
+    <button onclick="resetGame()" class="reset-btn">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
